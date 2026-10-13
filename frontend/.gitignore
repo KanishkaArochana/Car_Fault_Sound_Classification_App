@@ -1,0 +1,97 @@
+# https://dart.dev/guides/libraries/private-files
+# Standard .gitignore for a Flutter/Dart project
+
+# Tooling / Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Flutter generated plugin registrants
+**/GeneratedPluginRegistrant.java
+**/GeneratedPluginRegistrant.h
+**/GeneratedPluginRegistrant.m
+**/GeneratedPluginRegistrant.swift
+
+# Build artifacts
+build/
+
+# Android specific
+.gradle/
+android/.gradle/
+android/.kotlin/
+android/captures/
+android/local.properties
+android/key.properties
+android/app/local.properties
+android/app/key.properties
+*.keystore
+*.jks
+
+# iOS specific
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/DerivedData/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+/ios/Podfile.lock
+/ios/Pods/
+/ios/.symlinks/
+**/xcuserdata/
+
+# Environment / Secret keys
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.mobileprovision
+
+# Firebase configuration
+android/app/google-services.json
+!android/app/google-services.json.example
+ios/Runner/GoogleService-Info.plist
+!ios/Runner/GoogleService-Info.plist.example
+
+# macOS specific
+macos/Flutter/Generated.xcconfig
+macos/Flutter/flutter_export_environment.sh
+macos/DerivedData/
+
+# Windows specific
+windows/flutter/Generated.xcconfig
+windows/flutter/flutter_export_environment.sh
+
+# Linux specific
+linux/flutter/Generated.xcconfig
+linux/flutter/flutter_export_environment.sh
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Crash logs
+*.log
