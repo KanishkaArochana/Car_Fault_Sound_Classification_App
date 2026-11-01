@@ -3,11 +3,11 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../constants/app_strings.dart';
 import '../constants/app_colors.dart';
 
-/// Custom stylized Alert Dialogs matching design specifications.
+// Custom stylized Alert Dialogs matching design specifications.
 class AppAlerts {
   AppAlerts._();
 
-  // 1. Permission Required (mic access) — Cancel / Allow
+  // 1. Permission Required (mic access)  -  Cancel / Allow
   static Future<void> showPermissionRequired(
     BuildContext context, {
     required VoidCallback onAllow,
@@ -137,7 +137,7 @@ class AppAlerts {
     );
   }
 
-  // 2. Recording Stopped (too short) — OK
+  // 2. Recording Stopped (too short)  -  OK
   static Future<void> showShortRecording(BuildContext context) {
     return showDialog(
       context: context,
@@ -224,7 +224,7 @@ class AppAlerts {
     );
   }
 
-  // 3. High Noise Detected — OK
+  // 3. High Noise Detected  -  OK
   static Future<void> showHighNoise(BuildContext context) {
     return showDialog(
       context: context,
@@ -298,7 +298,7 @@ class AppAlerts {
     );
   }
 
-  // 4. Processing Failed — OK
+  // 4. Processing Failed  -  OK
   static Future<void> showProcessingFailed(BuildContext context) {
     return showDialog(
       context: context,
@@ -372,7 +372,7 @@ class AppAlerts {
     );
   }
 
-  // 5. Model Not Available — OK
+  // 5. Model Not Available  -  OK
   static Future<void> showModelNotAvailable(BuildContext context) {
     return showDialog(
       context: context,

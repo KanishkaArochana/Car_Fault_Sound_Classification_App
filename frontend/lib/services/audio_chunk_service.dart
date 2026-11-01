@@ -1,9 +1,9 @@
 import 'dart:io';
 import 'dart:typed_data';
 
-/// Splits recorded WAV into fixed-length chunks for classification.
+// Splits recorded WAV into fixed-length chunks for classification.
 class AudioChunkService {
-  /// Splits WAV into [chunkSeconds] windows (default 5s)
+  // Splits WAV into [chunkSeconds] windows (default 5s)
   Future<List<String>> splitIntoChunks(
     String sourcePath, {
     int chunkSeconds = 5,
@@ -56,7 +56,7 @@ class AudioChunkService {
     return chunkPaths;
   }
 
-  /// Delete temporary chunk files
+  // Delete temporary chunk files
   Future<void> cleanupChunks(List<String> chunkPaths) async {
     for (final path in chunkPaths) {
       try {
@@ -69,7 +69,7 @@ class AudioChunkService {
   }
 }
 
-/// Helper for WAV RIFF/PCM parsing and writing
+// Helper for WAV RIFF/PCM parsing and writing
 class _WavData {
   final int sampleRate;
   final int numChannels;

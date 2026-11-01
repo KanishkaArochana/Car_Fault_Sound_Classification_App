@@ -1,4 +1,4 @@
-/// Centralized copy for alert dialogs (see: ALERT MESSAGES / DIALOGS in UI flow).
+// Centralized copy for alert dialogs (see: ALERT MESSAGES / DIALOGS in UI flow).
 class AlertStrings {
   // 1. Permission Dialog
   static const permissionTitle = 'Permission Required';
@@ -39,7 +39,7 @@ class AlertStrings {
       'Not enough storage to save the recording. Please free up space and try again.';
 }
 
-/// Centralized strings for the Recording Screen
+// Centralized strings for the Recording Screen
 class RecordingStrings {
   static const title = 'Recording...';
   static const subtitle = 'Please keep your device\nnear the engine.';
@@ -52,7 +52,7 @@ class RecordingStrings {
   static const timerTotalFormat = '00:30';
 }
 
-/// Centralized strings for the Processing Screen
+// Centralized strings for the Processing Screen
 class ProcessingStrings {
   static const title = 'Processing...';
   static const subtitle = 'Analyzing engine sound in 5-second segments';
@@ -62,7 +62,7 @@ class ProcessingStrings {
   static const tipsBody = 'Please wait, this may take\nfew seconds.';
 }
 
-/// Centralized strings for the Result Screens
+// Centralized strings for the Result Screens
 class ResultStrings {
   static const faultDetected = 'Fault Detected';
   static const healthyDetected = 'Engine Healthy';

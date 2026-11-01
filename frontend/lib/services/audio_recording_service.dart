@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:record/record.dart';
 
-/// Audio recording service for microphone input and amplitude streaming.
+// Audio recording service for microphone input and amplitude streaming.
 class AudioRecordingService {
   final AudioRecorder _recorder = AudioRecorder();
 
@@ -25,25 +25,25 @@ class AudioRecordingService {
   int get elapsedMilliseconds => _elapsedMilliseconds;
   double get elapsedSeconds => _elapsedMilliseconds / 1000.0;
 
-  /// Stream of normalized amplitude (0.0 - 1.0) for visualizer
+  // Stream of normalized amplitude (0.0 - 1.0) for visualizer
   Stream<double> get amplitudeStream => _amplitudeController.stream;
 
-  /// Stream of recording duration in seconds
+  // Stream of recording duration in seconds
   Stream<int> get durationStream => _durationController.stream;
 
-  /// Check mic permission
+  // Check mic permission
   Future<bool> hasPermission() async {
     final status = await Permission.microphone.status;
     return status.isGranted;
   }
 
-  /// Request mic permission
+  // Request mic permission
   Future<bool> requestPermission() async {
     final status = await Permission.microphone.request();
     return status.isGranted;
   }
 
-  /// Start recording (saves 32kHz mono WAV to temp)
+  // Start recording (saves 32kHz mono WAV to temp)
   Future<void> startRecording() async {
     if (_isRecording) return;
 
@@ -97,7 +97,7 @@ class AudioRecordingService {
     });
   }
 
-  /// Stop recording and return WAV path
+  // Stop recording and return WAV path
   Future<String?> stopRecording() async {
     if (!_isRecording) return null;
     _isRecording = false;
@@ -111,7 +111,7 @@ class AudioRecordingService {
     return path ?? _currentRecordingPath;
   }
 
-  /// Dispose resources
+  // Dispose resources
   void dispose() {
     _timer?.cancel();
     _amplitudeSub?.cancel();
