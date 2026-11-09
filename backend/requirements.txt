@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]==0.30.6
+python-multipart
+torch
+librosa
+scikit-learn
+joblib
+panns-inference
+torchlibrosa
+numpy
