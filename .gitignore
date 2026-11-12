@@ -33,3 +33,11 @@ backend/.venv/
 backend/env/
 backend/__pycache__/
 backend/.pytest_cache/
+ 
+backend/debug_uploads/
+*.pt
+*.pth
+*.joblib
+*.onnx
+*.tflite
+backend/test_13_classes_selected.json
