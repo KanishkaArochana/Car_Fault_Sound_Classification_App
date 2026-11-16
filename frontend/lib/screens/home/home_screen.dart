@@ -7,6 +7,7 @@ import '../../widgets/primary_button.dart';
 import '../car_faults_detection_screen/recording_screen.dart';
 import '../car_faults_detection_screen/history_screen.dart';
 import '../vehicle/add_vehicle_screen.dart';
+import '../OBD_code_lookup/obd_category_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -159,11 +160,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     assetPath: 'assets/icons/engine_blue.svg',
                     isSvg: true,
                     onTap: () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                          content: Text('OBD Code Lookup'),
-                          duration: Duration(seconds: 1),
-                        ),
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const ObdCategoryScreen()),
                       );
                     },
                   ),
