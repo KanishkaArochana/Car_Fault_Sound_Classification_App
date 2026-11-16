@@ -1,0 +1,104 @@
+[
+  {
+    "code": "C0035",
+    "title": "Left Front Wheel Speed Sensor Circuit",
+    "description": "The ABS module detects a malfunction in the circuit for the left front wheel speed sensor.",
+    "possibleCauses": [
+      "Faulty left front wheel speed sensor",
+      "Damaged wiring or sensor connector",
+      "Debris on the wheel speed sensor tone ring",
+      "Damaged tone ring"
+    ],
+    "solutions": [
+      "Inspect and replace the left front wheel speed sensor",
+      "Repair wiring harness or connector",
+      "Clean the tone ring and sensor tip",
+      "Replace tone ring or wheel bearing if damaged"
+    ]
+  },
+  {
+    "code": "C0267",
+    "title": "ABS Pump Motor Relay Circuit",
+    "description": "The ABS module has detected an open, short, or failure in the ABS pump motor relay circuit.",
+    "possibleCauses": [
+      "Faulty ABS pump relay",
+      "Blown ABS pump fuse",
+      "Corrosion in the relay socket",
+      "Faulty ABS control module"
+    ],
+    "solutions": [
+      "Check and replace ABS pump fuses",
+      "Test and replace the ABS pump relay",
+      "Clean relay contacts",
+      "Inspect ABS module wiring"
+    ]
+  },
+  {
+    "code": "C0561",
+    "title": "Stability Control System Disabled",
+    "description": "The stability control system has been disabled by the control module, usually due to a fault in a related system.",
+    "possibleCauses": [
+      "Engine misfire or performance codes present (check engine light on)",
+      "Faulty wheel speed sensor",
+      "Faulty steering angle sensor",
+      "Communication error between modules"
+    ],
+    "solutions": [
+      "Scan and repair any engine (P-codes) first",
+      "Diagnose related ABS or traction control codes",
+      "Calibrate steering angle sensor",
+      "Clear codes and test drive"
+    ]
+  },
+  {
+    "code": "C1210",
+    "title": "ABS Pump Motor Control Circuit",
+    "description": "The ABS module is unable to properly control the ABS hydraulic pump motor.",
+    "possibleCauses": [
+      "Faulty ABS pump motor",
+      "Poor electrical connection to the ABS pump",
+      "Blown high-amp ABS fuse",
+      "Faulty Electronic Brake Control Module (EBCM)"
+    ],
+    "solutions": [
+      "Check high-amp fuses",
+      "Inspect ABS pump connector and ground",
+      "Replace the ABS pump assembly",
+      "Replace or rebuild the EBCM"
+    ]
+  },
+  {
+    "code": "C1214",
+    "title": "Steering Wheel Position Sensor Circuit",
+    "description": "The control module is receiving an erratic or missing signal from the steering wheel position sensor.",
+    "possibleCauses": [
+      "Faulty steering wheel position sensor (SAS)",
+      "Sensor out of calibration after an alignment",
+      "Damaged wiring in the steering column",
+      "Loose suspension components"
+    ],
+    "solutions": [
+      "Perform SAS calibration procedure with a scan tool",
+      "Inspect and replace steering wheel position sensor",
+      "Check wiring harness in the steering column",
+      "Perform a wheel alignment"
+    ]
+  },
+  {
+    "code": "C1233",
+    "title": "ABS Hydraulic Pump Motor Circuit",
+    "description": "The ABS module detects a lack of voltage or circuit continuity to the hydraulic pump motor.",
+    "possibleCauses": [
+      "Blown ABS motor fuse or fusible link",
+      "Internal failure of the ABS hydraulic pump",
+      "Faulty pump motor ground",
+      "Corroded ABS module connector"
+    ],
+    "solutions": [
+      "Test all ABS-related fuses",
+      "Clean the ABS module ground wire",
+      "Check for power at the pump connector",
+      "Replace the ABS pump and motor assembly"
+    ]
+  }
+]

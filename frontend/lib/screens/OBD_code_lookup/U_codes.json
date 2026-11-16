@@ -1,0 +1,104 @@
+[
+  {
+    "code": "U0100",
+    "title": "Lost Communication With ECM/PCM",
+    "description": "Other control modules on the CAN bus network have lost communication with the Engine Control Module (ECM) or Powertrain Control Module (PCM).",
+    "possibleCauses": [
+      "Blown ECM/PCM power fuse",
+      "Poor ground connection to the ECM",
+      "Open or shorted CAN bus wiring",
+      "Failed ECM/PCM"
+    ],
+    "solutions": [
+      "Check all ECM/PCM fuses and relays",
+      "Inspect and clean ECM ground connections",
+      "Test CAN bus network for continuity and shorts",
+      "Replace the ECM/PCM"
+    ]
+  },
+  {
+    "code": "U0101",
+    "title": "Lost Communication With TCM",
+    "description": "Other control modules have lost communication with the Transmission Control Module (TCM).",
+    "possibleCauses": [
+      "Blown TCM power fuse",
+      "Damaged wiring harness leading to the transmission",
+      "Poor ground connection to the TCM",
+      "Failed TCM"
+    ],
+    "solutions": [
+      "Check TCM fuses and power supply",
+      "Inspect wiring harness near the transmission for damage",
+      "Clean TCM ground connections",
+      "Replace the TCM"
+    ]
+  },
+  {
+    "code": "U0121",
+    "title": "Lost Communication With ABS Module",
+    "description": "Other control modules on the network have lost communication with the Anti-lock Brake System (ABS) module.",
+    "possibleCauses": [
+      "Blown ABS module fuse",
+      "Corroded ABS module connector",
+      "Poor ground to the ABS module",
+      "Failed ABS control module"
+    ],
+    "solutions": [
+      "Inspect all ABS fuses",
+      "Disconnect and clean the ABS module connector",
+      "Check and tighten ABS grounds",
+      "Replace the ABS module"
+    ]
+  },
+  {
+    "code": "U0140",
+    "title": "Lost Communication With Body Control Module",
+    "description": "Other control modules on the network have lost communication with the Body Control Module (BCM).",
+    "possibleCauses": [
+      "Blown BCM fuse",
+      "Open or short in the CAN bus communication lines",
+      "Poor ground connection to the BCM",
+      "Failed Body Control Module"
+    ],
+    "solutions": [
+      "Check all BCM related fuses",
+      "Test CAN bus wiring for continuity",
+      "Check BCM power and ground circuits",
+      "Replace or program the BCM"
+    ]
+  },
+  {
+    "code": "U0401",
+    "title": "Invalid Data Received From ECM/PCM",
+    "description": "A module on the network received a data packet from the ECM/PCM that was implausible or invalid.",
+    "possibleCauses": [
+      "Software glitch in the ECM or receiving module",
+      "Faulty engine sensor sending bad data to the ECM",
+      "Intermittent CAN bus wiring issue",
+      "Low battery voltage"
+    ],
+    "solutions": [
+      "Check for and resolve any engine sensor P-codes first",
+      "Update software/firmware on the ECM",
+      "Check battery voltage and charging system",
+      "Clear codes and road test"
+    ]
+  },
+  {
+    "code": "U0415",
+    "title": "Invalid Data Received From ABS Module",
+    "description": "A module on the network received a data packet from the ABS module that was implausible or invalid.",
+    "possibleCauses": [
+      "Faulty wheel speed sensor providing erratic data",
+      "Differing tire sizes causing erratic ABS calculations",
+      "Software glitch in the ABS module",
+      "Corroded wiring at the ABS connector"
+    ],
+    "solutions": [
+      "Diagnose and fix any wheel speed sensor C-codes first",
+      "Ensure all tires are the correct and identical size",
+      "Check and clean ABS module connections",
+      "Update ABS module software"
+    ]
+  }
+]

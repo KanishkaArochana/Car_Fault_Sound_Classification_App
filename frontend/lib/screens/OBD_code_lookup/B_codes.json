@@ -1,0 +1,102 @@
+[
+  {
+    "code": "B0001",
+    "title": "Driver Frontal Deployment Control",
+    "description": "There is a circuit malfunction in the driver's front airbag deployment control loop.",
+    "possibleCauses": [
+      "Faulty clockspring in the steering wheel",
+      "Damaged wiring or poor connections to the airbag",
+      "Faulty driver side airbag module",
+      "Faulty Restraint Control Module (RCM)"
+    ],
+    "solutions": [
+      "Inspect and replace the clockspring",
+      "Check wiring harness and connectors for damage",
+      "Replace the driver airbag module",
+      "Diagnose and replace RCM if necessary"
+    ]
+  },
+  {
+    "code": "B0020",
+    "title": "Passenger Frontal Deployment Control",
+    "description": "There is a circuit malfunction in the passenger's front airbag deployment control loop.",
+    "possibleCauses": [
+      "Damaged wiring or poor connections to passenger airbag",
+      "Faulty passenger side airbag module",
+      "Faulty Restraint Control Module (RCM)",
+      "Corrosion in connectors"
+    ],
+    "solutions": [
+      "Check passenger airbag wiring harness and connectors",
+      "Replace the passenger airbag module",
+      "Clean corroded connectors",
+      "Diagnose and replace RCM if necessary"
+    ]
+  },
+  {
+    "code": "B1000",
+    "title": "Electronic Control Unit Malfunction",
+    "description": "An internal malfunction has been detected within one of the vehicle's electronic control modules.",
+    "possibleCauses": [
+      "Internal module hardware failure",
+      "Corrupted module software",
+      "Water intrusion or damage to the module",
+      "Poor ground or power supply to the module"
+    ],
+    "solutions": [
+      "Check module power and ground circuits",
+      "Inspect module for water damage",
+      "Attempt to reflash/reprogram the module",
+      "Replace the faulty electronic control unit"
+    ]
+  },
+  {
+    "code": "B1325",
+    "title": "Door Ajar Circuit Fault",
+    "description": "The body control module is receiving an incorrect signal from a door ajar switch.",
+    "possibleCauses": [
+      "Faulty door ajar switch (often inside the latch)",
+      "Broken wire in the door jamb boot",
+      "Corroded door switch connector",
+      "Faulty Body Control Module (BCM)"
+    ],
+    "solutions": [
+      "Test and replace the faulty door latch/switch",
+      "Inspect and repair wiring in the door hinge area",
+      "Clean electrical connectors",
+      "Test BCM inputs"
+    ]
+  },
+  {
+    "code": "B1676",
+    "title": "Battery Voltage Out of Range",
+    "description": "A control module has detected that the system battery voltage is either too high or too low.",
+    "possibleCauses": [
+      "Weak or dead 12V battery",
+      "Faulty alternator or voltage regulator",
+      "Loose or corroded battery terminals",
+      "Poor main ground connection"
+    ],
+    "solutions": [
+      "Test and charge or replace the battery",
+      "Test alternator charging output",
+      "Clean and tighten battery terminals",
+      "Inspect and clean main ground straps"
+    ]
+  },
+  {
+    "code": "B2725",
+    "title": "Keyless Entry Transmitter Battery Low",
+    "description": "The vehicle's receiver has detected a low battery signal from the key fob/remote transmitter.",
+    "possibleCauses": [
+      "Depleted key fob battery",
+      "Interference causing poor signal transmission",
+      "Faulty key fob"
+    ],
+    "solutions": [
+      "Replace the coin battery in the key fob",
+      "Clean key fob internal contacts",
+      "Reprogram or replace the key fob if issues persist"
+    ]
+  }
+]

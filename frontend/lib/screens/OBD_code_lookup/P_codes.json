@@ -1,0 +1,223 @@
+[
+  {
+    "code": "P0301",
+    "title": "Cylinder 1 Misfire Detected",
+    "description": "The engine control module has detected a misfire in cylinder 1.",
+    "possibleCauses": [
+      "Faulty spark plug",
+      "Ignition coil issue",
+      "Fuel injector problem",
+      "Low compression"
+    ],
+    "solutions": [
+      "Check spark plug",
+      "Check ignition coil",
+      "Inspect fuel injector",
+      "Check compression"
+    ]
+  },
+  {
+    "code": "P0011",
+    "title": "Camshaft Timing Over-Advanced, Bank 1",
+    "description": "The Engine Control Module (ECM) has determined that the Bank 1 camshaft timing is more advanced than what the ECM has commanded.",
+    "possibleCauses": [
+      "Low engine oil level",
+      "Dirty or degraded engine oil",
+      "Faulty Variable Valve Timing (VVT) solenoid",
+      "Worn timing chain or tensioner"
+    ],
+    "solutions": [
+      "Check and top up engine oil",
+      "Perform an oil and filter change",
+      "Inspect and replace VVT solenoid",
+      "Check timing chain alignment"
+    ]
+  },
+  {
+    "code": "P0102",
+    "title": "Mass Air Flow Circuit Low",
+    "description": "The Mass Air Flow (MAF) sensor output voltage to the ECM is lower than the expected standard range.",
+    "possibleCauses": [
+      "Dirty or contaminated MAF sensor",
+      "Faulty MAF sensor",
+      "Intake air leak (vacuum leak)",
+      "Wiring or connector issue in the MAF circuit"
+    ],
+    "solutions": [
+      "Clean the MAF sensor",
+      "Check for and repair vacuum leaks",
+      "Inspect wiring and connectors",
+      "Replace the MAF sensor"
+    ]
+  },
+  {
+    "code": "P0128",
+    "title": "Coolant Below Thermostat Temperature",
+    "description": "The engine is not reaching its optimal operating temperature within the expected amount of time.",
+    "possibleCauses": [
+      "Faulty or stuck-open engine thermostat",
+      "Low engine coolant level",
+      "Faulty Engine Coolant Temperature (ECT) sensor",
+      "Cooling fan running constantly"
+    ],
+    "solutions": [
+      "Replace the engine thermostat",
+      "Check and fill coolant to the proper level",
+      "Test or replace the ECT sensor",
+      "Inspect cooling fan operation"
+    ]
+  },
+  {
+    "code": "P0135",
+    "title": "O2 Sensor Heater Circuit, Bank 1 Sensor 1",
+    "description": "The ECM has detected a malfunction in the heater circuit of the upstream oxygen sensor on Bank 1.",
+    "possibleCauses": [
+      "Faulty oxygen sensor (Bank 1 Sensor 1)",
+      "Blown O2 sensor heater fuse",
+      "Poor electrical connection or damaged wiring",
+      "Faulty ECM (rare)"
+    ],
+    "solutions": [
+      "Replace Bank 1 Sensor 1 oxygen sensor",
+      "Check and replace related fuses",
+      "Inspect and repair wiring harness",
+      "Test circuit for proper voltage and ground"
+    ]
+  },
+  {
+    "code": "P0171",
+    "title": "System Too Lean, Bank 1",
+    "description": "The engine is running with too much air and not enough fuel (lean condition) in Bank 1.",
+    "possibleCauses": [
+      "Vacuum leak in the intake manifold or hoses",
+      "Faulty or dirty Mass Air Flow (MAF) sensor",
+      "Low fuel pressure (weak pump, clogged filter)",
+      "Faulty oxygen sensor"
+    ],
+    "solutions": [
+      "Perform a smoke test to find vacuum leaks",
+      "Clean or replace MAF sensor",
+      "Check fuel pressure and replace fuel filter if needed",
+      "Inspect exhaust system for leaks before the O2 sensor"
+    ]
+  },
+  {
+    "code": "P0300",
+    "title": "Random/Multiple Cylinder Misfire",
+    "description": "The ECM has detected misfires occurring randomly across multiple cylinders, rather than being isolated to a specific one.",
+    "possibleCauses": [
+      "Worn spark plugs or bad ignition coils",
+      "Vacuum leaks",
+      "Low fuel pressure or poor fuel quality",
+      "Faulty EGR valve or MAF sensor"
+    ],
+    "solutions": [
+      "Inspect and replace spark plugs/coils",
+      "Check for vacuum leaks",
+      "Test fuel pressure",
+      "Clean fuel injectors and check fuel quality"
+    ]
+  },
+  {
+    "code": "P0401",
+    "title": "EGR Flow Insufficient",
+    "description": "The Exhaust Gas Recirculation (EGR) system is not flowing enough exhaust gas back into the intake manifold.",
+    "possibleCauses": [
+      "Clogged EGR valve or passages",
+      "Faulty EGR Differential Pressure (DPFE) sensor",
+      "Damaged or clogged vacuum lines",
+      "Faulty EGR solenoid"
+    ],
+    "solutions": [
+      "Clean EGR valve and intake passages",
+      "Check and replace DPFE sensor if faulty",
+      "Inspect and replace damaged vacuum lines",
+      "Test EGR solenoid operation"
+    ]
+  },
+  {
+    "code": "P0420",
+    "title": "Catalyst Efficiency Below Threshold, Bank 1",
+    "description": "The catalytic converter on Bank 1 is not operating efficiently and failing to properly clean the exhaust emissions.",
+    "possibleCauses": [
+      "Failed or failing catalytic converter",
+      "Exhaust leak before or near the catalytic converter",
+      "Faulty downstream oxygen sensor",
+      "Engine misfires causing raw fuel to enter the exhaust"
+    ],
+    "solutions": [
+      "Fix any existing misfire or rich/lean codes first",
+      "Check for and repair exhaust leaks",
+      "Test or replace the downstream O2 sensor",
+      "Replace the catalytic converter"
+    ]
+  },
+  {
+    "code": "P0430",
+    "title": "Catalyst Efficiency Below Threshold, Bank 2",
+    "description": "The catalytic converter on Bank 2 is not operating efficiently and failing to properly clean the exhaust emissions.",
+    "possibleCauses": [
+      "Failed or failing catalytic converter (Bank 2)",
+      "Exhaust leak near the Bank 2 converter",
+      "Faulty downstream oxygen sensor (Bank 2)",
+      "Internal engine damage or misfires"
+    ],
+    "solutions": [
+      "Fix any existing engine performance codes first",
+      "Check for and repair exhaust leaks",
+      "Test or replace the Bank 2 downstream O2 sensor",
+      "Replace the Bank 2 catalytic converter"
+    ]
+  },
+  {
+    "code": "P0442",
+    "title": "EVAP System Small Leak",
+    "description": "The Evaporative Emission Control (EVAP) system has detected a small vapor leak in the fuel system.",
+    "possibleCauses": [
+      "Loose, damaged, or missing gas cap",
+      "Small leak in an EVAP hose or line",
+      "Faulty purge valve or vent solenoid",
+      "Leak in the charcoal canister"
+    ],
+    "solutions": [
+      "Tighten or replace the gas cap",
+      "Perform a smoke test on the EVAP system",
+      "Test and replace purge or vent solenoids",
+      "Inspect charcoal canister for cracks"
+    ]
+  },
+  {
+    "code": "P0455",
+    "title": "EVAP System Large Leak",
+    "description": "The Evaporative Emission Control (EVAP) system has detected a large vapor leak or lack of purge flow.",
+    "possibleCauses": [
+      "Gas cap left off or severely damaged",
+      "Disconnected or cracked EVAP hose",
+      "Stuck-open EVAP vent valve",
+      "Damaged fuel filler neck"
+    ],
+    "solutions": [
+      "Check and tighten/replace gas cap",
+      "Visually inspect EVAP hoses for disconnections",
+      "Test the EVAP vent valve",
+      "Smoke test system to pinpoint large leaks"
+    ]
+  },
+  {
+    "code": "P0505",
+    "title": "Idle Control System Malfunction",
+    "description": "The ECM is unable to maintain or control the engine idle speed properly.",
+    "possibleCauses": [
+      "Carbon buildup in the throttle body",
+      "Faulty Idle Air Control (IAC) valve",
+      "Large vacuum leak",
+      "Blocked air intake"
+    ],
+    "solutions": [
+      "Clean the throttle body and IAC passages",
+      "Test or replace the IAC valve",
+      "Check for and repair vacuum leaks",
+      "Inspect air intake system"
+    ]
+  }
+]
