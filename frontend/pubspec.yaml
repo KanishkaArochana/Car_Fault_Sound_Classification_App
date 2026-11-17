@@ -32,6 +32,8 @@ flutter:
     - assets/icons/
     - assets/images/OBD Images/
     - lib/screens/OBD_code_lookup/ 
+    - assets/dashboard_symbols/  
+    - lib/screens/dashbord_symbols/
 
 
 dependency_overrides:
