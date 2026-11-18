@@ -8,6 +8,7 @@ import '../car_faults_detection_screen/recording_screen.dart';
 import '../car_faults_detection_screen/history_screen.dart';
 import '../vehicle/add_vehicle_screen.dart';
 import '../OBD_code_lookup/obd_category_screen.dart';
+import '../dashbord_symbols/dashboard_symbols_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -171,11 +172,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     assetPath: 'assets/icons/dashbord.png',
                     isSvg: false,
                     onTap: () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(
-                          content: Text('Dashboard Symbols'),
-                          duration: Duration(seconds: 1),
-                        ),
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const DashboardSymbolsScreen()),
                       );
                     },
                   ),

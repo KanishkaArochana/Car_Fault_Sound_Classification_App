@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Check Engine",
+    "fileName": "Check_Engine (.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "Indicates a malfunction in the engine control unit, emissions system, or an ignition sensor.",
+    "action": "Have the vehicle scanned for OBD-II fault codes as soon as possible. Safe to drive temporarily if the light is solid and not flashing."
+  },
+  {
+    "name": "ABS",
+    "fileName": "ABS.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "Indicates a fault in the Anti-lock Braking System. Standard brakes will continue to work, but emergency ABS assistance is disabled.",
+    "action": "Drive with caution, especially on slippery surfaces, and have the ABS speed sensors and module diagnosed."
+  },
+  {
+    "name": "Battery",
+    "fileName": "Battery.svg",
+    "severity": "Critical",
+    "color": "red",
+    "meaning": "Charging system fault. The alternator is not supplying power, or the battery is depleted.",
+    "action": "Turn off non-essential systems (A/C, radio). Safely pull over and switch off the engine. The car may not restart if shut down."
+  },
+  {
+    "name": "Oil Pressure",
+    "fileName": "Oil_Pressure.svg",
+    "severity": "Critical",
+    "color": "red",
+    "meaning": "Loss of engine oil pressure. Insufficient lubrication can destroy engine pistons and bearings in seconds.",
+    "action": "Safely pull over and stop the engine immediately. Check oil level with dipstick. Do not restart the vehicle; call a tow service."
+  },
+  {
+    "name": "Brake System",
+    "fileName": "Brake_System.svg",
+    "severity": "Critical",
+    "color": "red",
+    "meaning": "Brake fluid level is dangerously low, or there is a failure in the main hydraulic braking circuit.",
+    "action": "Ensure the handbrake is fully released. If light remains on, pull over immediately. Check brake fluid level and call for assistance."
+  },
+  {
+    "name": "Airbag",
+    "fileName": "Airbag.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "A diagnostic error has been detected in the Supplemental Restraint System (SRS/Airbag module).",
+    "action": "Airbags and seatbelt pretensioners might fail to deploy in a collision. Seek mechanical assistance to scan and reset SRS."
+  },
+  {
+    "name": "Coolant Temp",
+    "fileName": "Coolant_Temp.svg",
+    "severity": "Critical",
+    "color": "red",
+    "meaning": "Engine coolant temperature has exceeded safe limits. The engine is overheating.",
+    "action": "Pull over safely and turn off the engine immediately. Do not open the radiator cap while hot to prevent severe steam burns."
+  },
+  {
+    "name": "TPMS",
+    "fileName": "Tire_Pressure.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "Tire Pressure Monitoring System (TPMS) alert. One or more tires are significantly under-inflated.",
+    "action": "Stop at the nearest service station, check the tire pressures with a gauge, and inflate to the recommended PSI."
+  },
+  {
+    "name": "ESP",
+    "fileName": "Traction_Control.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "Electronic Stability Program (ESP) or traction control is disabled, turned off, or has experienced a system fault.",
+    "action": "Vehicular slide protection is inactive. Drive carefully on wet, icy, or loose road surfaces."
+  },
+  {
+    "name": "Seat Belt",
+    "fileName": "Seat_Belt.svg",
+    "severity": "Critical",
+    "color": "red",
+    "meaning": "An occupant in the driver or passenger seat is unbuckled while the vehicle is in motion.",
+    "action": "Fasten the seatbelt immediately before driving."
+  },
+  {
+    "name": "Automatic Emergency Braking",
+    "fileName": "Automatic Emergency Braking.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "Collision warning system is disabled or blocked by dirt/snow on radar/camera sensors.",
+    "action": "Clean the front bumper radar sensors and windshield camera lenses to restore active safety braking features."
+  },
+  {
+    "name": "Brake Pad Wear",
+    "fileName": "Brake_Pad_Wear_Warning.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "Brake pad thickness has worn down past the safety limit indicators.",
+    "action": "Schedule a brake service soon to replace the worn brake pads before rotors get damaged."
+  },
+  {
+    "name": "Cruise Control",
+    "fileName": "Cruise Control Active.svg",
+    "severity": "Info",
+    "color": "green",
+    "meaning": "Cruise control system is active and holding the designated speed.",
+    "action": "Press the brake pedal or cruise cancel button to resume manual acceleration."
+  },
+  {
+    "name": "DPF Warning",
+    "fileName": "DPF_Warning.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "Diesel Particulate Filter is saturated with soot and is unable to automatically regenerate.",
+    "action": "Drive the vehicle on a highway at speeds above 50 mph (80 km/h) for 20 minutes to trigger active DPF regeneration."
+  },
+  {
+    "name": "Door Ajar",
+    "fileName": "Door_Ajar_Warning.svg",
+    "severity": "Critical",
+    "color": "red",
+    "meaning": "One or more passenger doors, hood, or the trunk lid is not fully closed.",
+    "action": "Bring the vehicle to a stop and check all doors to make sure they are slammed shut securely."
+  },
+  {
+    "name": "Throttle Fault",
+    "fileName": "Electronic_Throttle_Control_Fault.svg",
+    "severity": "Critical",
+    "color": "red",
+    "meaning": "Electronic Throttle Control (ETC) system fault. The vehicle may go into \"limp home\" mode with restricted speed.",
+    "action": "Pull over, turn off ignition, wait 10 seconds, and restart. If light persists, seek immediate service."
+  },
+  {
+    "name": "High Beams",
+    "fileName": "High_Beam_Indicator.svg",
+    "severity": "Info",
+    "color": "blue",
+    "meaning": "Windshield high beam headlights are turned on.",
+    "action": "Dim headlights to low beams when approaching oncoming traffic or following other vehicles."
+  },
+  {
+    "name": "Lane Departure",
+    "fileName": "Lane Departure Warning.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "The vehicle is drifting out of its lane without the turn signal activated.",
+    "action": "Grip the steering wheel and correct the path to center the vehicle in the lane."
+  },
+  {
+    "name": "Low Brake Fluid",
+    "fileName": "Low_Brake_Fluid.svg",
+    "severity": "Critical",
+    "color": "red",
+    "meaning": "The volume of brake fluid in the master cylinder reservoir is low, suggesting a leak or highly worn brake pads.",
+    "action": "Inspect reservoir. Top up with DOT-approved fluid. If fluid drops quickly, seek emergency brake system repair."
+  },
+  {
+    "name": "Low Fuel",
+    "fileName": "Low_Fuel.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "The fuel level in the tank has dropped to reserve levels (typically less than 2 gallons).",
+    "action": "Refuel at the nearest gas station immediately to avoid air entering the fuel injectors."
+  },
+  {
+    "name": "Power Steering",
+    "fileName": "Power_Steering_Fault.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "Electric power steering assist is inactive. Steering the car will feel significantly heavier.",
+    "action": "Check hydraulic steering fluid (if equipped) or restart engine. Drive slowly and prepare for high steering effort."
+  },
+  {
+    "name": "Security Alert",
+    "fileName": "Security_Key_Warning.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "Vehicle immobilizer security system is active or the key transponder was not recognized.",
+    "action": "Ensure you are using the correct transponder key. Replace key fob batteries if remote entry fails to start engine."
+  },
+  {
+    "name": "Suspension Fault",
+    "fileName": "Suspension_Fault.svg",
+    "severity": "Warning",
+    "color": "orange",
+    "meaning": "Air suspension or active dampers have experienced a fault. Vehicle height may be restricted.",
+    "action": "Drive at moderate speeds to a repair shop. Avoid hauling heavy loads or trailers."
+  },
+  {
+    "name": "Transmission Fault",
+    "fileName": "Transmission_Fault.svg",
+    "severity": "Critical",
+    "color": "red",
+    "meaning": "An internal transmission component is overheating, slipping, or has lost electronic gear control.",
+    "action": "Safely pull over. Let transmission cool down in Neutral. Do not continue driving if the engine revs without accelerating."
+  },
+  {
+    "name": "Washer Fluid Low",
+    "fileName": "Washer_Fluid_Low.svg",
+    "severity": "Info",
+    "color": "blue",
+    "meaning": "The windshield washer fluid level is low.",
+    "action": "Refill the windshield washer fluid reservoir with seasonal wash solution."
+  },
+  {
+    "name": "Parking Brake",
+    "fileName": "parking_brake.svg",
+    "severity": "Critical",
+    "color": "red",
+    "meaning": "The electronic or manual parking brake is engaged.",
+    "action": "Fully disengage the parking brake lever or switch before attempting to drive."
+  },
+  {
+    "name": "Turn Left Indicator",
+    "fileName": "turn_left.svg",
+    "severity": "Info",
+    "color": "green",
+    "meaning": "Left-hand turn signals are active.",
+    "action": "Verify signal turns off automatically after completing your turn."
+  },
+  {
+    "name": "Turn Right Indicator",
+    "fileName": "turn_right.svg",
+    "severity": "Info",
+    "color": "green",
+    "meaning": "Right-hand turn signals are active.",
+    "action": "Verify signal turns off automatically after completing your turn."
+  }
+]
