@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../constants/app_colors.dart';
 import '../screens/home/home_screen.dart';
 import '../screens/car_faults_detection_screen/history_screen.dart';
+import '../screens/profile/profile_screen.dart';
 import '../screens/placeholder_screen.dart';
 
 class BottomNavBar extends StatelessWidget {
@@ -30,7 +31,7 @@ class BottomNavBar extends StatelessWidget {
         targetScreen = const PlaceholderScreen(title: 'Emergency', tabIndex: 3);
         break;
       case 4:
-        targetScreen = const PlaceholderScreen(title: 'Profile', tabIndex: 4);
+        targetScreen = const ProfileScreen();
         break;
       default:
         targetScreen = const HomeScreen();
